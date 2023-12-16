@@ -21,10 +21,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
-      - name: Run benchmarks
-        run: cargo bench
       - name: Install gnuplot
         run: sudo apt update && sudo apt install -y gnuplot
+      - name: Run benchmarks
+        run: cargo bench
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
