@@ -1,6 +1,8 @@
 # learning-criterion.rs
 
-🌤🌤🌤 Rustのベンチマーククレートを試してみる！  
+🌤🌤🌤 Rustのベンチマーククレート(criterion)を試してみる！  
+
+![成果物](./docs/images/fruit.gif)  
 
 ## 実行方法
 
