@@ -23,7 +23,17 @@
   "postCreateCommand": "cat /etc/os-release && rustc --version && rustup --version && cargo --version",
 
   // Configure tool-specific properties.
-  "customizations": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  },
 
   // Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
   "remoteUser": "root"
